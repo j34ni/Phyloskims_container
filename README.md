@@ -28,3 +28,12 @@ phyloskim --input /opt/uio/inputdata/sequences.fasta --output /opt/uio/results/p
 ```
 
 where the inputdata is located in a folder called `inputdata` in the current directory, and the output results will be stored in another local directory called `results` **on the host**, however from *inside* the container these will be referred to as ` /opt/uio/inputdata` and `/opt/uio/results`, respectively.
+
+## Citation:
+
+Should you use this modified recipe and/or the corresponding container image, please cite:
+
+Iaquinta, J. (2024). j34ni/Phyloskims_container: Version 1.0.2 (1.0.2). Zenodo. https://doi.org/10.5281/zenodo.12806246
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12806246.svg)](https://doi.org/10.5281/zenodo.12806246)
